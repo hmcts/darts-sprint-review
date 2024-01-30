@@ -1,0 +1,44 @@
+.govuk-width-container {
+  max-width: 1280px;
+}
+
+.team-sprint {
+  margin-bottom: unset;
+}
+
+.epic {
+  margin-bottom: 25px;
+}
+
+.epic ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.epic ul li {
+  line-height: 35px;
+}
+
+.issue .key {
+  margin-left: 10px;
+  color: #1d70b8;
+  font-weight: bold;
+}
+
+.issue .status {
+  margin-left: 10px;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.issue .component {
+  margin-right: 10px;
+  font-size: 14px;
+  font-weight: bold;
+  min-width: 60px;
+  text-align: center;
+}
+
+a, a:visited {
+  color: #1d70b8;
+}

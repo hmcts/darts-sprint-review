@@ -1,0 +1,24 @@
+extends layout
+
+block content
+  h1.team-sprint.govuk-heading-xl DARTS #{sprint}
+  div.govuk-inset-text= dates
+
+  div.govuk-body
+    div.govuk-width-container
+      each epic in data
+        div.epic
+          h3.govuk-heading-m= epic[0]
+          ul
+            each entry in epic[1]
+              li.issue
+                div
+                  if entry.isFrontend
+                    span.govuk-body-s.govuk-tag.govuk-tag--yellow.component Frontend
+                  if entry.isBackend
+                    span.govuk-body-s.govuk-tag.govuk-tag--purple.component Backend
+                  span.summary= entry.summary
+                  span.govuk-body-s.key
+                    a(href="https://tools.hmcts.net/jira/browse/#{entry.key}", target="_blank")= entry.key
+                  if entry.status != 'Done'
+                    span.govuk-body-s.govuk-tag.govuk-tag--red.status= entry.status
