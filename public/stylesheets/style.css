@@ -25,6 +25,12 @@
   font-weight: bold;
 }
 
+.issue .bug svg, .issue .spike svg {
+  height: 20px;
+  margin-bottom: -3px;
+  margin-right: 8px;
+}
+
 .issue .status {
   margin-left: 10px;
   font-size: 14px;
