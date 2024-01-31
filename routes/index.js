@@ -19,7 +19,7 @@ const COL_INDEX = {
 };
 
 const EPIC_MAP = {
-  'DMP-629': 'Admin portal user management',
+  'DMP-629': 'Admin portal',
   'DMP-9': 'Audio API and Service',
   'DMP-12': 'Audio Transformation Service',
   'DMP-21': 'Case audit service',
