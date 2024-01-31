@@ -6,6 +6,14 @@
   margin-bottom: unset;
 }
 
+.key {
+  margin-bottom: 30px;
+}
+
+.key .key-item {
+  margin-right: 10px;
+}
+
 .epic {
   margin-bottom: 25px;
 }
@@ -25,7 +33,7 @@
   font-weight: bold;
 }
 
-.issue .bug svg, .issue .spike svg {
+.bug svg, .spike svg {
   height: 20px;
   margin-bottom: -3px;
   margin-right: 8px;
