@@ -1,17 +1,18 @@
 Component/s|Issue Type|Summary|Issue key|Issue id|Status|Custom field (Epic Link)|Custom field (Epic Name)
 Frontend|Story|Search for Users in the Admin Portal Primary page|DMP-634|724401|Awaiting Fix|DMP-629|
 Frontend|Story|Searching for a User in the Admin Portal Results|DMP-1834|766654|In Progress|DMP-629|
-Frontend|Task|Admin portal URL path and landing page|DMP-2187|778506|Sign off|DMP-629|
-Frontend|Story|Add All Annotations to Case File screen|DMP-1508|755574|Review|DMP-215|
+Frontend|Task|Admin portal URL path and landing page|DMP-2187|778506|Done|DMP-629|
+Frontend|Bug|Admin user search radio buttons not aligned correctly|DMP-2309|783030|In Progress|DMP-629|
+Frontend|Story|Add All Annotations to Case File screen|DMP-1508|755574|Ready for Test|DMP-215|
 Frontend|Story|Add Annotations to Hearing details screen|DMP-1552|757269|In Progress|DMP-215|
 Frontend|Story|Add annotation confirmation screen|DMP-1623|759957|In Progress|DMP-215|
 Backend |Task|Endpoint to create annotation with file upload|DMP-1887|768864|Awaiting Fix|DMP-215|
-Backend |Task|Get case annotations|DMP-1888|768865|Sign off|DMP-215|
+Backend |Task|Get case annotations|DMP-1888|768865|Done|DMP-215|
 Backend |Task|Get hearing annotations endpoint - GET /hearings/:hearingID/annotations|DMP-1889|768866|Done|DMP-215|
 Backend |Task|Download annotation document|DMP-1890|768867|In Progress|DMP-215|
 Backend |Task|Delete annotation|DMP-1891|768873|In Progress|DMP-215|
 Backend |Bug|Annotation with file upload error code|DMP-2275|782200|Review|DMP-215|
-Backend |Task|API - create new GET /audios/{media_id}/preview endpoint to use Server-Sent events|DMP-2049|774011|Sign off|DMP-12|
+Backend |Task|API - create new GET /audios/{media_id}/preview endpoint to use Server-Sent events|DMP-2049|774011|Done|DMP-12|
 Frontend|Task|Additional status to be shown on Your audio screen|DMP-2125|776486|Done|DMP-12|
 Frontend|Bug|Progress Section in the 'Your audio' does not display all the Requested Audios|DMP-2188|778561|Done|DMP-12|
 Backend |Bug|Created/updated columns not always populated|DMP-2026|773064|Review|DMP-8|
@@ -28,11 +29,11 @@ Backend |Task|Populate is_log_entry field for events received from mid tier|DMP-
 Frontend|Bug|DMP-1799 - Restriction banner stacked on top of confirmation banner with no space in between.|DMP-2085|774851|Done|DMP-7|
 Backend |Task|"""event_id"" is not getting set on the DARTS API event database entry"|DMP-2163|777358|Done|DMP-7|
 Backend |Task|Api - Change DAR PC notification logic to read from device_register table|DMP-706|727654|Ready for Test|DMP-487|
-Backend |Story|Write to log for courthouse not registered Dynatrace panel|DMP-1993|771215|In Progress|DMP-20|
+Backend |Story|Write to log for courthouse not registered Dynatrace panel|DMP-1993|771215|Ready for Test|DMP-20|
 Backend |Story|Write to log when we get events from Xhibit and CPP|DMP-2005|771505|Ready for Test|DMP-20|
 Frontend|Story|"Add Retained until date and ""view or change"" link to case file screen"|DMP-1369|750360|Done|DMP-16|
-Frontend|Story|"Case Retention Date - Case Details, Current retention details, audit history"|DMP-1406|751191|Sign off|DMP-16|
-Frontend|Story|Change retention date screen|DMP-1413|751758|QA Testing|DMP-16|
+Frontend|Story|"Case Retention Date - Case Details, Current retention details, audit history"|DMP-1406|751191|Done|DMP-16|
+Frontend|Story|Change retention date screen|DMP-1413|751758|Test Review|DMP-16|
 Frontend|Story|Check your retention date change screen|DMP-1437|752799|Done|DMP-16|
 Frontend|Story|Confirmation of retention date change screen|DMP-1439|753505|Done|DMP-16|
 Frontend|Story|Retention errors|DMP-1450|753551|Done|DMP-16|
@@ -49,6 +50,6 @@ Backend |Task|Retention Error - show last automated retention date |DMP-2184|778
 Frontend|Bug|Retain case until and Retention date in audit history table are different|DMP-2231|779943|Done|DMP-16|
 Backend |Bug|"""validate_only"" is sent in request body in place of query parameter as shown in LLD"|DMP-2245|780725|Ready for Test|DMP-16|
 Frontend|Task|(Dev only) DARTS Portal - Organise FE components|DMP-2038|773363|Done|DMP-33|
-Backend |Task|Ensure that our darts api problem responses are correctly defined|DMP-2039|773437|QA Testing|DMP-33|
+Backend |Task|Ensure that our darts api problem responses are correctly defined|DMP-2039|773437|Test Review|DMP-33|
 Backend |Task|V62 of data model|DMP-2176|777775|Done|DMP-33|
 Frontend|Bug|GOVUK Textarea wrapper component causes duplicate IDs on the page|DMP-2211|779385|Done|DMP-13|
