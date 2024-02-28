@@ -1,0 +1,59 @@
+Component/s|Issue Type|Summary|Issue key|Issue id|Status|Custom field (Epic Link)|Custom field (Epic Name)
+Frontend|Story|Courthouse Search Page|DMP-725|730486|Test Review|DMP-603|
+Frontend|Story|View Courthouse (Details Tab)|DMP-1192|745283|In Progress|DMP-603|
+Frontend|Story|Courthouse search results page|DMP-2269|781984|In Progress|DMP-603|
+Backend |Task|Implement GET /admin/courthouses/{courthouse_id}|DMP-2282|782374|Ready for Test|DMP-603|
+Frontend|Story|Search for Users in the Admin Portal Primary page|DMP-634|724401|Sign off|DMP-629|
+Frontend|Story|Searching for a User in the Admin Portal Results|DMP-1834|766654|Test Review|DMP-629|
+Frontend|Bug|Admin user search radio buttons not aligned correctly|DMP-2309|783030|Done|DMP-629|
+Frontend|Story|Add All Annotations to Case File screen|DMP-1508|755574|Sign off|DMP-215|
+Frontend|Story|Add Annotations to Hearing details screen|DMP-1552|757269|QA Testing|DMP-215|
+Frontend|Story|Delete Annotation screen|DMP-1612|759549|Done|DMP-215|
+Frontend|Story|Annotation template|DMP-1614|759575|QA Testing|DMP-215|
+Frontend|Story|Add annotation screen|DMP-1616|759579|QA Testing|DMP-215|
+Frontend|Story|Add annotation confirmation screen|DMP-1623|759957|QA Testing|DMP-215|
+Backend |Task|Endpoint to create annotation with file upload|DMP-1887|768864|Done|DMP-215|
+Backend |Task|Download annotation document|DMP-1890|768867|Blocked|DMP-215|
+Backend |Task|Delete annotation|DMP-1891|768873|Done|DMP-215|
+Frontend|Story|Download annotations from case screen|DMP-2246|780855|QA Testing|DMP-215|
+Backend |Bug|Annotation with file upload error code|DMP-2275|782200|Done|DMP-215|
+Backend |Task|Annotation Upload - Upload the document to Unstructured Data Store|DMP-2324|783542|QA Testing|DMP-215|
+Backend |Task|Setup VIQ client installer on staging to mimic Mid-tier audio requests to DARTS|DMP-1752|764488|Blocked|DMP-9|
+Backend |Spike|investigation into triggering VIQ dll to transfer audio to DARTS|DMP-2371|785133|Done|DMP-9|
+Frontend|Story|Preview audio is unavailable if file is only in long term storage ARM|DMP-2100|775555|Ready for Test|DMP-12|
+Backend |Bug|Investigate performance degradation of streaming audio preview endpoint.|DMP-2217|779647|Awaiting Fix|DMP-12|
+Backend |Task|(Dev only) Remove GET /audio-requests endpoint|DMP-2248|780914|Done|DMP-12|
+Backend |Task|New Preview Message - If Audio is in Inbound and not in Unstructured|DMP-2264|782028|Done|DMP-12|
+Backend |Task|Create audit entry for Import Annotation activity|DMP-1072|742629|Review|DMP-21|
+Frontend|Bug|Login too many attempts error message is not handled|DMP-2335|783945|Done|DMP-11|
+Backend |Task|RCJ Appeals User permissions|DMP-2136|776550|Ready for Test|DMP-441|
+Backend |Bug|"For unauthorised user such as Approver and darpc_midtier_user, POST /dailylists endpoint is accessible. "|DMP-2358|784286|Done|DMP-441|
+Backend |Bug|Created/updated columns not always populated|DMP-2026|773064|QA Testing|DMP-8|
+Frontend|Bug|Incorrect Column Heading Label in Search Results Screen|DMP-2298|782479|Done|DMP-8|
+Backend |Bug|Admin user lacks assigned permissions and cannot search cases|DMP-2359|784359|Done|DMP-8|
+Backend |Bug|Unable to access court cases with admin user. Admin user should have global access.|DMP-2379|785170|Done|DMP-8|
+Backend |Task|Inbound to unstructured improvements|DMP-1919|769710|In Progress|DMP-17|
+Backend |Bug|Entries are getting picked up multiple times by the 'OutboundAudioDeleter' automated task for mark for deletion AND 'ExternalDataStoreDeleter' does not update the ors_id = 11 even the entry is deleted from the blob storage.|DMP-2250|780780|Done|DMP-17|
+Frontend|Task|ENHANCEMENT - Update other hearing related screens with updated restriction view|DMP-1799|765553|Done|DMP-7|
+Backend |Bug|StopAndCloseHandler last_updated_by and total_sentence|DMP-2334|783568|Done|DMP-7|
+Backend |Task|Api - Change DAR PC notification logic to read from device_register table|DMP-706|727654|Ready for Test|DMP-487|
+Backend |Bug|Node Register - Remove Courtroom check|DMP-2419|786415|Sign off|DMP-487|
+Backend |Story|Write to log processing status and timestamp of Xhibit/CPP daily job list|DMP-1952|770708|Review|DMP-20|
+Backend |Story|Write to log when audio is uploaded|DMP-1986|770922|Review|DMP-20|
+Backend |Story|Write to log for courthouse not registered Dynatrace panel|DMP-1993|771215|Done|DMP-20|
+Backend |Story|Write to log when a DAR PC calls getCases|DMP-2003|771261|Review|DMP-20|
+Backend |Story|Write to log when we get events from Xhibit and CPP|DMP-2005|771505|Sign off|DMP-20|
+Backend |Story|Write to log when we notify a DAR PC|DMP-2006|771521|In Progress|DMP-20|
+Backend |Task|Apply retention policy automated task|DMP-1840|766921|Done|DMP-16|
+Backend |Story|Default retention policy|DMP-1899|769111|Done|DMP-16|
+Backend |Task|Service to store latest retention details|DMP-2029|773310|Done|DMP-16|
+Backend |Task|Only pick policy that is within the policy start/end period|DMP-2078|774669|Done|DMP-16|
+Frontend|Task|Use retention endpoint to validate and get proposed retention date|DMP-2161|777334|QA Testing|DMP-16|
+Backend |Task|Retention Error - show last automated retention date |DMP-2184|778149|Done|DMP-16|
+Backend |Bug|"""validate_only"" is sent in request body in place of query parameter as shown in LLD"|DMP-2245|780725|Done|DMP-16|
+Backend |Task|(Dev only) Application changes for running automated jobs in a separate pod|DMP-2046|773782|Review|DMP-33|
+Backend |Task|(Dev Only) Change LocalDateTime to OffsetDateTime|DMP-2327|783550|Done|DMP-33|
+Frontend|Task|Updates to transcript already requested screen|DMP-1756|764655|Done|DMP-13|
+Frontend|Bug|Request Transcript -Start time can be set after end time|DMP-2203|779317|Done|DMP-13|
+Backend |Bug|Duplicate transcription request checking is not correct|DMP-2277|782078|Done|DMP-13|
+Backend |Bug|"Case ""All transcriptions"" tab is not showing all transcriptions"|DMP-2353|783982|Done|DMP-13|

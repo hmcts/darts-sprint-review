@@ -3,10 +3,10 @@ const router = express.Router();
 const fs = require('fs');
 const Papa = require('papaparse');
 
-const SPRINT_NUMBER = '21';
+const SPRINT_NUMBER = '22';
 const TEAM = 'Bullseye';
 const SPRINT = `Sprint ${SPRINT_NUMBER}`;
-const DATES = '31th Jan 2024 to 14th Feb 2024';
+const DATES = '14th Feb 2024 to 28th Feb 2024';
 
 const COL_INDEX = {
   COMPONENT: 0,
@@ -20,6 +20,8 @@ const COL_INDEX = {
 
 const EPIC_MAP = {
   'DMP-629': 'Admin portal',
+  'DMP-603': 'Admin portal',
+  'DMP-606': 'Admin Portal',
   'DMP-9': 'Audio API and Service',
   'DMP-12': 'Audio Transformation Service',
   'DMP-21': 'Case audit service',
@@ -35,7 +37,9 @@ const EPIC_MAP = {
   'DMP-487': 'Tech tasks / Misc',
   'DMP-13': 'Transcription service',
   'DMP-215': 'Annotations',
-  'DMP-20': 'Monitoring service'
+  'DMP-20': 'Monitoring service',
+  'DMP-11': 'Authentication - External Users',
+  'DMP-441': 'Authorisation Service'
 };
 
 router.get('/', function(_, res) {
