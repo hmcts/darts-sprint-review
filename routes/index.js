@@ -39,7 +39,9 @@ const EPIC_MAP = {
   'DMP-215': 'Annotations',
   'DMP-20': 'Monitoring service',
   'DMP-11': 'Authentication - External Users',
-  'DMP-441': 'Authorisation Service'
+  'DMP-441': 'Authorisation Service',
+  'DMP-18': 'Archival service',
+  'DMP-19': 'Token service'
 };
 
 router.get('/', function(_, res) {

@@ -3,7 +3,7 @@ Frontend|Story|Courthouse Search Page|DMP-725|730486|Test Review|DMP-603|
 Frontend|Story|View Courthouse (Details Tab)|DMP-1192|745283|In Progress|DMP-603|
 Frontend|Story|Courthouse search results page|DMP-2269|781984|In Progress|DMP-603|
 Backend |Task|Implement GET /admin/courthouses/{courthouse_id}|DMP-2282|782374|Ready for Test|DMP-603|
-Frontend|Story|Search for Users in the Admin Portal Primary page|DMP-634|724401|Sign off|DMP-629|
+Frontend|Story|Search for Users in the Admin Portal Primary page|DMP-634|724401|Done|DMP-629|
 Frontend|Story|Searching for a User in the Admin Portal Results|DMP-1834|766654|Test Review|DMP-629|
 Frontend|Bug|Admin user search radio buttons not aligned correctly|DMP-2309|783030|Done|DMP-629|
 Frontend|Story|Add All Annotations to Case File screen|DMP-1508|755574|Sign off|DMP-215|
@@ -37,12 +37,12 @@ Backend |Bug|Entries are getting picked up multiple times by the 'OutboundAudioD
 Frontend|Task|ENHANCEMENT - Update other hearing related screens with updated restriction view|DMP-1799|765553|Done|DMP-7|
 Backend |Bug|StopAndCloseHandler last_updated_by and total_sentence|DMP-2334|783568|Done|DMP-7|
 Backend |Task|Api - Change DAR PC notification logic to read from device_register table|DMP-706|727654|Ready for Test|DMP-487|
-Backend |Bug|Node Register - Remove Courtroom check|DMP-2419|786415|Sign off|DMP-487|
+Backend |Bug|Node Register - Remove Courtroom check|DMP-2419|786415|Done|DMP-487|
 Backend |Story|Write to log processing status and timestamp of Xhibit/CPP daily job list|DMP-1952|770708|Review|DMP-20|
 Backend |Story|Write to log when audio is uploaded|DMP-1986|770922|Review|DMP-20|
 Backend |Story|Write to log for courthouse not registered Dynatrace panel|DMP-1993|771215|Done|DMP-20|
 Backend |Story|Write to log when a DAR PC calls getCases|DMP-2003|771261|Review|DMP-20|
-Backend |Story|Write to log when we get events from Xhibit and CPP|DMP-2005|771505|Sign off|DMP-20|
+Backend |Story|Write to log when we get events from Xhibit and CPP|DMP-2005|771505|Done|DMP-20|
 Backend |Story|Write to log when we notify a DAR PC|DMP-2006|771521|In Progress|DMP-20|
 Backend |Task|Apply retention policy automated task|DMP-1840|766921|Done|DMP-16|
 Backend |Story|Default retention policy|DMP-1899|769111|Done|DMP-16|
